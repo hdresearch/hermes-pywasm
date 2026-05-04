@@ -1,0 +1,1349 @@
+{
+  "sizes": {
+    "src_mb": 12.538557052612305,
+    "venv_mb": 720.7184000015259,
+    "total_mb": 733.2569570541382,
+    "pip_pkgs": 171,
+    "pyodide_patch_kb": 33.291015625,
+    "wasm_mb": 26.005138397216797,
+    "host_kb": 20.0390625
+  },
+  "cold_start": {
+    "native": [
+      {
+        "wall_ms": 750.0,
+        "user_ms": 510.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 570.0000000000001,
+        "rss_mb": 106.390625,
+        "page_faults": 33,
+        "ctx_vol": 8,
+        "ok": true
+      },
+      {
+        "wall_ms": 720.0,
+        "user_ms": 470.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 530.0,
+        "rss_mb": 107.40625,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      },
+      {
+        "wall_ms": 690.0,
+        "user_ms": 460.0,
+        "sys_ms": 50.0,
+        "cpu_ms": 510.0,
+        "rss_mb": 105.84375,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      },
+      {
+        "wall_ms": 760.0,
+        "user_ms": 510.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 570.0000000000001,
+        "rss_mb": 106.265625,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      },
+      {
+        "wall_ms": 770.0,
+        "user_ms": 490.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 550.0,
+        "rss_mb": 105.984375,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      }
+    ],
+    "pyodide": [
+      {
+        "wall_ms": 730.0,
+        "user_ms": 470.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 530.0,
+        "rss_mb": 106.625,
+        "page_faults": 8,
+        "ctx_vol": 73,
+        "ok": true
+      },
+      {
+        "wall_ms": 700.0,
+        "user_ms": 470.0,
+        "sys_ms": 50.0,
+        "cpu_ms": 520.0,
+        "rss_mb": 106.96875,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      },
+      {
+        "wall_ms": 710.0,
+        "user_ms": 460.0,
+        "sys_ms": 50.0,
+        "cpu_ms": 510.0,
+        "rss_mb": 105.21875,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      },
+      {
+        "wall_ms": 810.0,
+        "user_ms": 540.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 600.0000000000001,
+        "rss_mb": 108.515625,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      },
+      {
+        "wall_ms": 690.0,
+        "user_ms": 450.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 510.0,
+        "rss_mb": 105.953125,
+        "page_faults": 1,
+        "ctx_vol": 6,
+        "ok": true
+      }
+    ],
+    "pywasm": [
+      {
+        "wall_ms": 110.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 110.796875,
+        "page_faults": 0,
+        "ctx_vol": 2,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 110.703125,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 110.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 118.859375,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 110.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 117.921875,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 117.625,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      }
+    ]
+  },
+  "single_turn": {
+    "native": [
+      {
+        "wall_ms": 840.0,
+        "user_ms": 570.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 639.9999999999999,
+        "rss_mb": 113.328125,
+        "page_faults": 4,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 890.0,
+        "user_ms": 570.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 639.9999999999999,
+        "rss_mb": 113.75,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 840.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 113.765625,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 840.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 112.671875,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 840.0,
+        "user_ms": 550.0,
+        "sys_ms": 80.0,
+        "cpu_ms": 630.0,
+        "rss_mb": 112.9375,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      }
+    ],
+    "pyodide": [
+      {
+        "wall_ms": 850.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 113.390625,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 850.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 113.140625,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 840.0,
+        "user_ms": 570.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 639.9999999999999,
+        "rss_mb": 113.921875,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 840.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 112.484375,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 850.0,
+        "user_ms": 540.0,
+        "sys_ms": 90.0,
+        "cpu_ms": 630.0,
+        "rss_mb": 113.5,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      }
+    ],
+    "pywasm": [
+      {
+        "wall_ms": 110.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 118.75,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.75,
+        "page_faults": 0,
+        "ctx_vol": 1,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.71875,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 117.921875,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 110.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.921875,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      }
+    ]
+  },
+  "tool_call": {
+    "native": [
+      {
+        "wall_ms": 1030.0,
+        "user_ms": 560.0,
+        "sys_ms": 90.0,
+        "cpu_ms": 650.0,
+        "rss_mb": 113.390625,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 980.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 112.65625,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 980.0,
+        "user_ms": 580.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 649.9999999999999,
+        "rss_mb": 112.953125,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 990.0,
+        "user_ms": 570.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 639.9999999999999,
+        "rss_mb": 113.390625,
+        "page_faults": 12,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 1020.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 112.65625,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      }
+    ],
+    "pyodide": [
+      {
+        "wall_ms": 790.0,
+        "user_ms": 550.0,
+        "sys_ms": 60.0,
+        "cpu_ms": 610.0000000000001,
+        "rss_mb": 113.109375,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 820.0,
+        "user_ms": 580.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 649.9999999999999,
+        "rss_mb": 112.546875,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 1230.0,
+        "user_ms": 570.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 639.9999999999999,
+        "rss_mb": 112.625,
+        "page_faults": 27,
+        "ctx_vol": 13,
+        "ok": true
+      },
+      {
+        "wall_ms": 830.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 112.34375,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      },
+      {
+        "wall_ms": 810.0,
+        "user_ms": 560.0,
+        "sys_ms": 70.0,
+        "cpu_ms": 630.0000000000001,
+        "rss_mb": 111.546875,
+        "page_faults": 3,
+        "ctx_vol": 12,
+        "ok": true
+      }
+    ],
+    "pywasm": [
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.703125,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 0.0,
+        "cpu_ms": 90.0,
+        "rss_mb": 109.859375,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 110.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.640625,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.796875,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      },
+      {
+        "wall_ms": 100.0,
+        "user_ms": 90.0,
+        "sys_ms": 10.0,
+        "cpu_ms": 99.99999999999999,
+        "rss_mb": 109.78125,
+        "page_faults": 0,
+        "ctx_vol": 0,
+        "ok": true
+      }
+    ]
+  },
+  "scaling": {
+    "1": {
+      "native": [
+        {
+          "wall_ms": 1010.0,
+          "user_ms": 690.0,
+          "sys_ms": 90.0,
+          "cpu_ms": 779.9999999999999,
+          "rss_mb": 115.84375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 900.0,
+          "user_ms": 550.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 620.0000000000001,
+          "rss_mb": 112.609375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 900.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 113.828125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 870.0,
+          "user_ms": 570.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 639.9999999999999,
+          "rss_mb": 112.515625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1250.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 113.671875,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pyodide": [
+        {
+          "wall_ms": 800.0,
+          "user_ms": 570.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 639.9999999999999,
+          "rss_mb": 112.234375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 870.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 112.328125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 820.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 112.625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 880.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 113.59375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 850.0,
+          "user_ms": 570.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 639.9999999999999,
+          "rss_mb": 113.328125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pywasm": [
+        {
+          "wall_ms": 100.0,
+          "user_ms": 90.0,
+          "sys_ms": 0.0,
+          "cpu_ms": 90.0,
+          "rss_mb": 110.421875,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 100.0,
+          "user_ms": 90.0,
+          "sys_ms": 0.0,
+          "cpu_ms": 90.0,
+          "rss_mb": 109.546875,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 100.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 110.65625,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 100.0,
+          "user_ms": 90.0,
+          "sys_ms": 0.0,
+          "cpu_ms": 90.0,
+          "rss_mb": 109.828125,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 118.953125,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        }
+      ]
+    },
+    "5": {
+      "native": [
+        {
+          "wall_ms": 1400.0,
+          "user_ms": 590.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 669.9999999999999,
+          "rss_mb": 113.8125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1370.0,
+          "user_ms": 570.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 639.9999999999999,
+          "rss_mb": 113.28125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1420.0,
+          "user_ms": 580.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 659.9999999999999,
+          "rss_mb": 113.125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1360.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 112.75,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1440.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 113.65625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pyodide": [
+        {
+          "wall_ms": 840.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 112.65625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 860.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 112.265625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 890.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 112.59375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 860.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 113.859375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 2160.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 112.390625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pywasm": [
+        {
+          "wall_ms": 100.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 117.671875,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 109.96875,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 109.734375,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 110.125,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 100.0,
+          "user_ms": 90.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 99.99999999999999,
+          "rss_mb": 110.890625,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        }
+      ]
+    },
+    "10": {
+      "native": [
+        {
+          "wall_ms": 1980.0,
+          "user_ms": 590.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 669.9999999999999,
+          "rss_mb": 113.15625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1990.0,
+          "user_ms": 600.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 679.9999999999999,
+          "rss_mb": 113.3125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 1990.0,
+          "user_ms": 600.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 679.9999999999999,
+          "rss_mb": 113.46875,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 2040.0,
+          "user_ms": 580.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 659.9999999999999,
+          "rss_mb": 112.640625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 2000.0,
+          "user_ms": 590.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 669.9999999999999,
+          "rss_mb": 111.953125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pyodide": [
+        {
+          "wall_ms": 820.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 113.15625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 860.0,
+          "user_ms": 560.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 630.0000000000001,
+          "rss_mb": 112.984375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 860.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 113.375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 910.0,
+          "user_ms": 580.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 659.9999999999999,
+          "rss_mb": 112.640625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 850.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 112.59375,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pywasm": [
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 110.890625,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 0.0,
+          "cpu_ms": 100.0,
+          "rss_mb": 109.671875,
+          "page_faults": 0,
+          "ctx_vol": 2,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 109.671875,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 117.828125,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 110.890625,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        }
+      ]
+    },
+    "20": {
+      "native": [
+        {
+          "wall_ms": 3350.0,
+          "user_ms": 670.0,
+          "sys_ms": 90.0,
+          "cpu_ms": 760.0,
+          "rss_mb": 114.1875,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 3280.0,
+          "user_ms": 680.0,
+          "sys_ms": 90.0,
+          "cpu_ms": 770.0,
+          "rss_mb": 114.65625,
+          "page_faults": 3,
+          "ctx_vol": 13,
+          "ok": true
+        },
+        {
+          "wall_ms": 3250.0,
+          "user_ms": 650.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 730.0,
+          "rss_mb": 113.171875,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 3270.0,
+          "user_ms": 660.0,
+          "sys_ms": 90.0,
+          "cpu_ms": 750.0,
+          "rss_mb": 113.71875,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 3320.0,
+          "user_ms": 640.0,
+          "sys_ms": 80.0,
+          "cpu_ms": 720.0,
+          "rss_mb": 114.03125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pyodide": [
+        {
+          "wall_ms": 880.0,
+          "user_ms": 590.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 659.9999999999999,
+          "rss_mb": 114.390625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 880.0,
+          "user_ms": 600.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 669.9999999999999,
+          "rss_mb": 113.90625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 880.0,
+          "user_ms": 600.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 669.9999999999999,
+          "rss_mb": 113.171875,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 840.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 114.03125,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        },
+        {
+          "wall_ms": 860.0,
+          "user_ms": 580.0,
+          "sys_ms": 70.0,
+          "cpu_ms": 649.9999999999999,
+          "rss_mb": 113.765625,
+          "page_faults": 3,
+          "ctx_vol": 12,
+          "ok": true
+        }
+      ],
+      "pywasm": [
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 117.671875,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 109.640625,
+          "page_faults": 0,
+          "ctx_vol": 1,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 118.25,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 117.703125,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        },
+        {
+          "wall_ms": 110.0,
+          "user_ms": 100.0,
+          "sys_ms": 10.0,
+          "cpu_ms": 110.0,
+          "rss_mb": 117.859375,
+          "page_faults": 0,
+          "ctx_vol": 0,
+          "ok": true
+        }
+      ]
+    }
+  },
+  "burst": {
+    "1": {
+      "native": 748.9080410159659,
+      "pyodide": 737.1164580108598,
+      "pywasm": 109.38545799581334
+    },
+    "5": {
+      "native": 899.6307920024265,
+      "pyodide": 951.1096669884864,
+      "pywasm": 133.35020901286043
+    },
+    "10": {
+      "native": 1232.5403330032714,
+      "pyodide": 1040.8365829789545,
+      "pywasm": 182.3183750093449
+    },
+    "20": {
+      "native": 1850.2566250099335,
+      "pyodide": 1793.515708995983,
+      "pywasm": 316.28874997841194
+    },
+    "50": {
+      "native": 3692.8200840193313,
+      "pyodide": 3894.534292019671,
+      "pywasm": 607.4996669776738
+    }
+  },
+  "par_single": {
+    "1": {
+      "native": 915.1301660167519,
+      "pyodide": 995.8272079820745,
+      "pywasm": 111.67341601685621
+    },
+    "5": {
+      "native": 1081.1115829856135,
+      "pyodide": 1074.2602499958593,
+      "pywasm": 120.73500000406057
+    },
+    "10": {
+      "native": 1697.2435420029797,
+      "pyodide": 1231.356708012754,
+      "pywasm": 188.81233400315978
+    },
+    "20": {
+      "native": 2608.813917002408,
+      "pyodide": 2232.984166999813,
+      "pywasm": 264.71474999561906
+    },
+    "50": {
+      "native": 4565.994208009215,
+      "pyodide": 4947.112499998184,
+      "pywasm": 610.5970840144437
+    }
+  },
+  "par_multi": {
+    "1": {
+      "native": 1417.374042008305,
+      "pyodide": 887.7721669850871,
+      "pywasm": 114.66800002381206
+    },
+    "5": {
+      "native": 1622.148208989529,
+      "pyodide": 1027.9270419850945,
+      "pywasm": 136.40512499841861
+    },
+    "10": {
+      "native": 1883.8678330066614,
+      "pyodide": 1534.1755420085974,
+      "pywasm": 145.39270900422707
+    },
+    "20": {
+      "native": 2938.1275420018937,
+      "pyodide": 2312.249749986222,
+      "pywasm": 354.8662079847418
+    }
+  },
+  "mixed": {
+    "native": 2018.4892080142163,
+    "pyodide": 2342.7425419795327,
+    "pywasm": 267.6467080018483
+  },
+  "pool": {
+    "1": {
+      "native": 46982.86820802605,
+      "pyodide": 45996.56600001617,
+      "pywasm": 5736.004458012758
+    },
+    "5": {
+      "native": 10690.875375003088,
+      "pyodide": 10660.940458998084,
+      "pywasm": 1223.3789169986267
+    },
+    "10": {
+      "native": 6618.324124981882,
+      "pyodide": 6862.695832998725,
+      "pywasm": 726.6941250127275
+    },
+    "20": {
+      "native": 5719.101958005922,
+      "pyodide": 5048.840333998669,
+      "pywasm": 616.9983749859966
+    }
+  },
+  "scale": {
+    "1": {
+      "native": 958.8046249991748,
+      "pyodide": 862.206249992596,
+      "pywasm": 113.9971670054365
+    },
+    "5": {
+      "native": 1128.2575829827692,
+      "pyodide": 1046.3089580007363,
+      "pywasm": 131.35504198726267
+    },
+    "10": {
+      "native": 1452.8858330158982,
+      "pyodide": 1507.805625005858,
+      "pywasm": 187.20370798837394
+    },
+    "15": {
+      "native": 1615.317582996795,
+      "pyodide": 1953.395582997473,
+      "pywasm": 207.8649160102941
+    },
+    "20": {
+      "native": 2209.7542919800617,
+      "pyodide": 1981.8903749983292,
+      "pywasm": 277.9096669983119
+    },
+    "25": {
+      "native": 3246.2608749920037,
+      "pyodide": 2863.9740420039743,
+      "pywasm": 307.0283750130329
+    },
+    "30": {
+      "native": 2842.868790990906,
+      "pyodide": 3367.060041986406,
+      "pywasm": 366.36995800654404
+    },
+    "35": {
+      "native": 3786.425041995244,
+      "pyodide": 3249.7802920115646,
+      "pywasm": 559.3703339982312
+    },
+    "40": {
+      "native": 3895.2853749797214,
+      "pyodide": 4083.0897919950075,
+      "pywasm": 484.65833300724626
+    },
+    "45": {
+      "native": 4102.677749993745,
+      "pyodide": 4315.0610419979785,
+      "pywasm": 542.3596250184346
+    },
+    "50": {
+      "native": 4797.590790985851,
+      "pyodide": 4543.362125026761,
+      "pywasm": 595.6480829918291
+    }
+  },
+  "sustained": {
+    "1": {
+      "native": 2242.6317920035217,
+      "pyodide": 2251.890291023301,
+      "pywasm": 265.4479169868864
+    },
+    "2": {
+      "native": 2544.799666997278,
+      "pyodide": 2235.2435420034453,
+      "pywasm": 347.58787500322796
+    },
+    "3": {
+      "native": 2579.4882500194944,
+      "pyodide": 2234.4829170033336,
+      "pywasm": 250.95670798327774
+    }
+  },
+  "memory": {
+    "1": {
+      "native": {
+        "total_mb": 112.765625,
+        "avg_mb": 112.765625,
+        "max_mb": 112.765625
+      },
+      "pyodide": {
+        "total_mb": 112.625,
+        "avg_mb": 112.625,
+        "max_mb": 112.625
+      },
+      "pywasm": {
+        "total_mb": 110.875,
+        "avg_mb": 110.875,
+        "max_mb": 110.875
+      }
+    },
+    "5": {
+      "native": {
+        "total_mb": 580.15625,
+        "avg_mb": 116.03125,
+        "max_mb": 116.8125
+      },
+      "pyodide": {
+        "total_mb": 585.390625,
+        "avg_mb": 117.078125,
+        "max_mb": 117.90625
+      },
+      "pywasm": {
+        "total_mb": 570.59375,
+        "avg_mb": 114.11875,
+        "max_mb": 119.0
+      }
+    },
+    "10": {
+      "native": {
+        "total_mb": 1182.875,
+        "avg_mb": 118.2875,
+        "max_mb": 118.984375
+      },
+      "pyodide": {
+        "total_mb": 1177.453125,
+        "avg_mb": 117.7453125,
+        "max_mb": 118.9375
+      },
+      "pywasm": {
+        "total_mb": 1141.96875,
+        "avg_mb": 114.196875,
+        "max_mb": 119.265625
+      }
+    }
+  }
+}
