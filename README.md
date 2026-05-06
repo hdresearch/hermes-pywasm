@@ -1,3 +1,5 @@
+![Bringing Hermes to WebAssembly](hermes-wasm-cover.png)
+
 # hermes-pywasm
 
 Run [hermes-agent](../hermes-agent) as a compiled WebAssembly binary via [py2wasm](https://github.com/nicolo-ribaudo/nicolo-ribaudo.github.io) (Nuitka → C → WASI Wasm).
